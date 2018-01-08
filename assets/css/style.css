@@ -1,0 +1,163 @@
+
+header{
+background: rgba(0, 0, 0, 0.45);
+position: absolute;
+left: 0;
+right: 0;
+z-index: 2;
+top: 0; 
+}
+.top{
+border-bottom:1px solid #63625E;
+}
+.top .icon, .top .social{
+margin:0;
+}
+.top .icon{
+padding:10px 0;
+}
+.top .icon li{
+line-height:14px;
+padding:0 22px 0 0;
+}
+.top .icon li i{
+margin-right:8px;
+}
+.top .icon li a, .top .social li a{
+color:#fff;
+font-size:13px;
+}
+.top .social li{
+padding:0 14px 0 0;
+line-height:14px;
+}
+.top .social li:last-child, .top .icon li:last-child {
+padding:0 0px 0 0;
+}
+.top .social li i, #form-language .icofont-caret-down{
+margin-right:0px;
+}
+.top .social li a:hover i{
+color:#FFA41F;
+}
+#form-language .btn-link {
+padding:0;
+color: #fff;
+font-size:13px; 
+line-height:14px;
+}
+.top .dropdown-menu > li{
+padding:0;
+}
+.top .dropdown-menu > li > a{
+border-right:0px solid #000;
+padding-right:0;
+color:#000;
+font-size:13px; 
+}
+.top .dropdown-menu > li > a:hover{
+background:#FFA41F;
+color:#fff;
+}
+header #logo{
+margin:15px 0;
+}
+#menu .navbar{
+margin:40px 0;
+min-height:0;
+border: 0px solid transparent;
+}
+#menu .nav > li{
+margin:0 34px 0 0;
+}
+#menu .nav > li:last-child{
+margin:0 0px 0 0;
+}
+#menu .nav > li > a{
+background-color: transparent;
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+padding:0;
+line-height: 14px;
+text-transform:uppercase;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+position: relative;
+}
+#menu .nav > li > a:before {
+content: "";
+position: absolute;
+z-index: -1;
+left: 100%;
+right: 0;
+top: 20px;
+background: #FFA41F;
+height: 4px;
+-webkit-transition-property: left;
+transition-property: left;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+#menu .nav > li > a:hover:before,#menu .nav > li > a:focus:before,#menu .nav > li > a:active:before {
+left: 0;
+}
+#menu .nav > li > a:hover, #menu .navbar-nav > .active > a, #menu .navbar-nav > .active > a:hover, #menu .navbar-nav > .active > a:focus {
+color:#FFA41F;
+}
+#menu .dropdown-menu{
+padding:0;
+border-radius:0px;
+min-width:230px;
+margin:29px 0 0 0;
+}
+#menu .dropdown .dropdown-menu {
+-webkit-transition: all .5s ease-out;
+transition: all .5s ease-out;
+transform: rotateX(90deg);
+transform-origin: top;
+opacity: 0;
+display: block;
+}
+#menu .dropdown.open .dropdown-menu {
+opacity: 1;
+transform: rotateX(0deg);
+transform-origin: top;
+}
+#menu .dropdown-menu li{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+#menu .dropdown-menu li:last-child{
+border-bottom:none;
+}
+#menu .dropdown-menu li a{
+color:#000;
+font-size:14px;
+font-weight:400;
+text-transform:capitalize;
+}
+#menu .dropdown-menu li a:hover{
+color:#FFA41F;
+}
+.button-top .btn-primary{
+background:#FFA41F;
+margin:22px 0;
+padding:12px 0px;
+width:100%;
+border:1px solid #FFA41F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
